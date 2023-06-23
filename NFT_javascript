@@ -36,13 +36,13 @@ const printNFTs=function (){
     }
     console.log("Finished Printing all NFTS.\n")
 };
-const getTotalSupply =function(){
+const gettotalSupply =function(){
     console.log('Total number of minted NFTs: ${NFTs.length}');
 };
-mintNFT("NFT 1","white","craft","Rare");
-mintNFT("NFT 2","green","art","Common");
-mintNFT("NFT 3","black","Sports","Epic");
-mintNFT("NFT 4","yellow","Collectibles","Legendary");
+mintNFT("NFT 1","medium","verstile","Rare");
+mintNFT("NFT 2","small","cotton","Common");
+mintNFT("NFT 3","large","Polyster","available");
+mintNFT("NFT 4","medium","Gergotte","Legendary");
 printNFTs();
 
 gettotalSupply();
